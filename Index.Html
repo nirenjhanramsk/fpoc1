@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sidebar Menu -->
+    <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">✖</button>
+        <a href="#">🏠 Home</a>
+        <a href="#">🔐 Login</a>
+        <a href="#">📝 Sign Up</a>
+        <a href="#">📤 Upload Images</a>
+        <a href="#">⚙ Settings</a>
+        <a href="#">🚪 Logout</a>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+        <div class="brand">AnimeGallery</div>
+        <input type="text" placeholder="Search anime..." class="search-bar">
+        <div class="nav-links">
+            <a href="#">Explore</a>
+            <a href="#">Login</a>
+            <a href="#">Join Membership</a>
+            <a href="#" class="upload-btn">Upload</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Explore Stunning Anime Artwork</h1>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="gallery-container">
+        <button class="nav-button" id="prev-btn">❮ Prev</button>
+        <div class="gallery" id="gallery"></div>
+        <button class="nav-button" id="next-btn">Next ❯</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>AnimeGallery &copy; 2024 | Contact: support@animegallery.com | <a href="#">Help</a></p>
+    </footer>
+
+</body>
+</html>
