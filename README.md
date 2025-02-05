@@ -56,10 +56,6 @@ CSS3 (Flexbox, Grid, Media Queries)
 
 JavaScript (ES6+)
 
-💡 Contributing
-
-We welcome contributions! Feel free to fork the repository and submit a pull request with improvements or new features.
-
 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
